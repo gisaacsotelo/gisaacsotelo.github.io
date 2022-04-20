@@ -1,37 +1,90 @@
-/* :root selector is the parent of parents in the DOM, I target it to set a base or initilization */
-/* :root { */
+/* Initializing targeting universal selector to ensure the page will look the same in all the browsers */
 * {
-  /* background-color:darksalmon; */
   box-sizing: border-box;
-  font-size: 16px;
-  font-family: Akshar, 'Sans Serif';
   padding: 0;
   margin: 0;
+  font-size: 16px;
 }
 
-/* Test area to play with the spaces */
-
-/* header {
-  background-color: aqua;
+/* variables */
+:root {
+  --massive: 5rem;
+  --big: 30px;
+  --normal: 16px;
 }
 
-body {
+
+
+/*----------------------------- Testing area -------------------- */
+/* body {border: solid 2px black;} */
+header {
+  background-color: rgb(231, 198, 149);
+  border: solid 2px black;
+}
+main {
   background-color: white;
+  border: hidden 1px crimson;
 }
-
 footer {
-  background-color: blueviolet;
-} */
-
-/* ok CSS ... */
-
+  background-color: white;
+  border: solid 1px pink;
+}
+/* ---------------------------------------------------- */
+/* header - main - footer */
 body {
-  display: felx;
+  font-family: Akshar, 'Sans Serif';
+  display: flex;
   flex-direction: column;
 }
-
-.navbar {
-  background-color: aquamarine;
+header {
+  height: 85vh;
+}
+/* main{
+ height: 65vh;
+} */
+footer {
+  height: 15vh;
+}
+/*--------------HEADER ------------- */
+header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+/* logo-name */
+.logo-name-wrap {
+  background-color: grey;
+  display: flex;
+}
+.logo {
+  background-color: azure;
+  width: 15vw;
+
+}
+h1 {
+  background-color: yellowgreen;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  font-size: var(--massive);
+  padding: 0.2em;
+}
+
+/* navigation */
+.navbar {
+  background-color: blueviolet;
+  min-height: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+}
+
+.nav-links > li {
+  padding: 0.25rem 0rem;
+  min-height: 1.5rem;
+  font-size: 40px;
+  border: 1px red solid;
 }
