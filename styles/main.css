@@ -1,15 +1,37 @@
 /* :root selector is the parent of parents in the DOM, I target it to set a base or initilization */
-:root {
-  background-color:darksalmon;
+/* :root { */
+* {
+  /* background-color:darksalmon; */
+  box-sizing: border-box;
   font-size: 16px;
   font-family: Akshar, 'Sans Serif';
+  padding: 0;
+  margin: 0;
 }
 
+/* Test area to play with the spaces */
+
+/* header {
+  background-color: aqua;
+}
 
 body {
-  /* background-color: aqua; */
+  background-color: white;
 }
 
+footer {
+  background-color: blueviolet;
+} */
 
+/* ok CSS ... */
 
+body {
+  display: felx;
+  flex-direction: column;
+}
 
+.navbar {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+}
