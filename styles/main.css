@@ -1,90 +1,75 @@
 /* Initializing targeting universal selector to ensure the page will look the same in all the browsers */
-* {
+*, ::before, ::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-size: 16px;
-}
 
-/* variables */
+}
+/* CSS Variables -  To practice them */
 :root {
-  --massive: 5rem;
-  --big: 30px;
-  --normal: 16px;
+  font-size: 16px;
+  --massive-font: 4em;
+  --big-font: 2em;
+  --standard-font: 1em;
 }
 
-
-
-/*----------------------------- Testing area -------------------- */
-/* body {border: solid 2px black;} */
+/* -------------------------- */
+body { 
+  display: flex;
+  flex-direction: column;
+}
 header {
-  background-color: rgb(231, 198, 149);
-  border: solid 2px black;
+  background-color: bisque;
+  height: 20vh;
+  width: 100%;
 }
 main {
-  background-color: white;
-  border: hidden 1px crimson;
+  background-color: aquamarine;
+  height: 70vh;
+  width: 100%;
 }
 footer {
-  background-color: white;
-  border: solid 1px pink;
+  background-color: cadetblue;
+  height: 10vh;
+  width: 100%;
 }
-/* ---------------------------------------------------- */
-/* header - main - footer */
-body {
-  font-family: Akshar, 'Sans Serif';
-  display: flex;
-  flex-direction: column;
-}
-header {
-  height: 85vh;
-}
-/* main{
- height: 65vh;
-} */
-footer {
-  height: 15vh;
-}
-/*--------------HEADER ------------- */
+/*- Working the header ---------------------------*/
 header {
   display: flex;
   flex-direction: column;
+  justify-content: end;
 }
-/* logo-name */
-.logo-name-wrap {
-  background-color: grey;
-  display: flex;
-}
-.logo {
-  background-color: azure;
-  width: 15vw;
 
-}
 h1 {
-  background-color: yellowgreen;
-  width: 85vw;
-  display: flex;
-  justify-content: center;
-  font-size: var(--massive);
-  padding: 0.2em;
+  
+  font-size: var(--massive-font);
+  padding: 0.5rem;
+  padding-bottom: 0rem;
+  text-align: center;
 }
+.slogan {
+  font-size: var(--standard-font);
+  padding-bottom: 1rem;
+  display: block;
+  text-align: center;
+ }
 
-/* navigation */
-.navbar {
-  background-color: blueviolet;
-  min-height: 1.5rem;
-}
 
-.nav-links {
+/* -------Navigation--------- */
+.nav-list {
+  background-color: rgb(211, 155, 235);
   list-style: none;
+  font-size: var(--big-font);
   display: flex;
-  flex-direction: row; 
-  justify-content: space-evenly;
+  gap: 3rem;
+  justify-content: center;
+  padding: 0.5rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
-.nav-links > li {
-  padding: 0.25rem 0rem;
-  min-height: 1.5rem;
-  font-size: 40px;
-  border: 1px red solid;
+.nav-list > li > a {   /* Targeting all the a(links)*/
+  text-decoration: none;
 }
+
+/* - Working the main --------------------------- */
