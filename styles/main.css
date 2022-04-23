@@ -118,10 +118,12 @@ footer {
 
 footer > p {
   display: inline-block;
-  width: 100%;
-  text-align: center;
+  width: 100vw;
+  padding: 1rem;
+  margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
+
 }
 
 .logo-wrap {
