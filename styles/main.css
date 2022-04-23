@@ -3,14 +3,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
 }
 /* CSS Variables -  To practice them */
 :root {
   font-size: 16px;
-  --massive-font: 4em;
-  --big-font: 2em;
-  --standard-font: 1em;
+  --massive-font: 4rem;
+  --big-font: 2rem;
+  --standard-font: 1.5rem;
+  --small-font: 1rem;
 }
 
 /* -------------------------- */
@@ -24,7 +24,7 @@ header {
   width: 100%;
 }
 main {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 70vh;
   width: 100%;
 }
@@ -48,7 +48,7 @@ h1 {
   text-align: center;
 }
 .slogan {
-  font-size: var(--standard-font);
+  font-size: var(--small-font);
   padding-bottom: 1rem;
   display: block;
   text-align: center;
@@ -73,3 +73,36 @@ h1 {
 }
 
 /* - Working the main --------------------------- */
+main {
+  display: flex;
+}
+
+.blk-left, .blk-right {
+  width: 15%;
+}
+div[class^="blk-"] { /* Playing with [attribute^=value] selector to target same elements as rule above*/
+  background-image: url('../images/background-blog-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+.content {
+  background-color: bisque;
+  min-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  border-right: solid 5px black;
+  border-left: solid 5px black;
+}
+
+.content > p {
+  outline: 1px solid red;
+  padding: 0.5rem;
+}
+
+.first-image {
+  padding: 1rem;
+  margin: auto;
+}
