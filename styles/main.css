@@ -68,7 +68,7 @@ h1 {
   border-bottom: 2px solid black;
 }
 
-.nav-list > li > a {   /* Targeting all the a(links)*/
+.nav-list > li > a {   /* Targeting all the a(links) of my nav-list */
   text-decoration: none;
 }
 
@@ -93,16 +93,52 @@ div[class^="blk-"] { /* Playing with [attribute^=value] selector to target same 
   min-width: 70vw;
   display: flex;
   flex-direction: column;
-  border-right: solid 5px black;
-  border-left: solid 5px black;
+  border-right: solid 3px black;
+  border-left: solid 3px black;
 }
 
 .content > p {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   padding: 0.5rem;
+  align-self: center;
 }
 
 .first-image {
   padding: 1rem;
   margin: auto;
+}
+
+/*- Working the footer --------------------------------------- */
+/* playing with background images instead of image tag */
+footer {
+  display: flex;
+
+}
+
+footer > p {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo-wrap {
+  width: 15vw;
+  height: auto;
+  position: relative;
+  
+}
+
+.logo {  
+  /* background-color: turquoise;*/
+  position: absolute;
+  background-image: url('../images/Honest-work.jpg');
+  width: 100%;
+  height: 15vw;
+  background-size: cover;
+  border-radius: 50%;
+  bottom: calc(100% - 4vw);
+  right: 25%;
+  border: solid 2px black;
 }
