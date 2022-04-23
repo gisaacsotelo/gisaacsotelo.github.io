@@ -72,6 +72,30 @@ h1 {
 .nav-list > li > a {   /* Targeting all the a(links) of my nav-list */
   text-decoration: none;
 }
+.nav-list > li > a.current-page {
+  content: '';
+  /* outline: solid 1px red; */
+}
+
+/* Trying out pseudo elements to mark my current page  */
+.nav-list > li > a.current-page::before {
+  content: '';
+  /* outline: solid 1px blue; */
+  padding: 0.5rem;
+  border-top: solid 2px black;
+  position: relative;
+  top: calc(var(--big-font)* 0.85);
+  right: 5px;
+}
+.nav-list > li > a.current-page::after {
+  content: '';
+  /* outline: solid 1px blue; */
+  padding: 0.5rem;
+  border-top: solid 2px black;
+  position: relative;
+  top: calc(var(--big-font)* 0.85);
+  left: 5px;
+}
 
 /* - Working the main --------------------------- */
 main {
