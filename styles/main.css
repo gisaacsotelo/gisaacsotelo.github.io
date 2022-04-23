@@ -9,6 +9,7 @@
   font-size: 16px;
   --massive-font: 4rem;
   --big-font: 2rem;
+  --biggish-font: 1.7rem;
   --standard-font: 1.5rem;
   --small-font: 1rem;
 }
@@ -25,7 +26,8 @@ header {
 }
 main {
   /* background-color: aquamarine; */
-  max-height: 70vh;
+  min-height: 70vh;
+  max-height: 80vh;
   width: 100%;
 }
 footer {
@@ -56,7 +58,7 @@ h1 {
  }
 
 
-/* -------Navigation--------- */
+/* -------Navigation--------------------- */
 .nav-list {
   background-color: #11999E;
   list-style: none;
@@ -97,7 +99,29 @@ h1 {
   left: 5px;
 }
 
-/* - Working the main --------------------------- */
+/* - Working the main ----------------------------------------------------- */
+
+/* - Working secondary navigation -----------------*/
+
+.secondary-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 
+}
+
+.secondary-nav-list {
+  background-color: #11999E;
+  list-style: none;
+  font-size: var(--bigish-font);
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding: 0.5rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+
 main {
   display: flex;
 }
