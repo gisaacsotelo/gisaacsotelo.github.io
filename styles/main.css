@@ -10,7 +10,7 @@
   --massive-font: 4rem;
   --big-font: 2rem;
   --bigish-font: 1.5rem;
-  --standard-font: 1.5rem;
+  --standard-font: 1.3rem;
   --small-font: 1rem;
 }
 
@@ -215,11 +215,22 @@ footer > p {
   padding: 15rem;
 }
 
-.card-wrap {
-  border: solid 1px black;
+.card-wrap-A {
+  border: solid 2px black;
   padding: 0.5rem;
   line-height: 1.5rem;
-  border-radius: 10px;
+  border-radius: 15px;
+  width: 50vw; 
+  margin: 2rem;
+}
+
+.card-wrap-B {
+  border: solid 2px black;
+  padding: 0.5rem;
+  line-height: 1.5rem;
+  border-radius: 15px;
+  width: 50vw; 
+  margin: 2rem;
 }
 
 .card-title > h4 {
@@ -234,4 +245,27 @@ footer > p {
 .card-content {
   background-color: coral;
   font-size: var(--standard-font);
+  padding: 0.3rem;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border: solid black 2px;
+  border-radius: 15px/20px;
+
+  position: relative;
+}
+
+div[class^="card-image-wrap-"] {
+  border: solid 2px black;
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  border-radius:50%;
+}
+
+.card-image-wrap-A {
+  transform: translateX(48vw) translateY(-50%);
+}
+.card-image-wrap-B {
+  transform: translateX(-2vw) translateY(-50%);
 }
