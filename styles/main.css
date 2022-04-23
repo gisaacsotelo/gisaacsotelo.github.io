@@ -12,6 +12,7 @@
   --bigish-font: 1.5rem;
   --standard-font: 1.3rem;
   --small-font: 1rem;
+  /*Note: add color palette variables later...*/
 }
 
 /* -------------------------- */
@@ -32,7 +33,7 @@ main {
 }
 footer {
   background-color: #11999E; /*rgb(17, 153, 158)*/
-  height: 10vh;
+  max-height: 10vh;
   width: 100%;
 }
 /* ----------------------------------------------------------- */
@@ -45,7 +46,6 @@ header {
 }
 
 h1 {
-  
   font-size: var(--massive-font);
   padding: 0.5rem;
   padding-bottom: 0rem;
@@ -105,7 +105,6 @@ h1 {
 .secondary-navigation {
   display: flex;
   flex-direction: column;
-  gap: 
 }
 
 .secondary-nav-list {
@@ -116,8 +115,6 @@ h1 {
   gap: 2rem;
   justify-content: center;
   padding: 0.6rem;
-  /* border-top: 2px solid black;
-  border-bottom: 2px solid black; */
   width: fit-content;
   margin: auto;
   border: 2px solid black;
@@ -158,8 +155,11 @@ div[class^="blk-"] { /* Playing with [attribute^=value] selector to target both 
 
 .content > p {
   /* outline: 1px solid red; */
-  padding: 0.5rem;
+  padding: 1rem;
   align-self: center;
+  font-size: var(--standard-font);
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .first-image {
@@ -195,7 +195,7 @@ footer > p {
   /* background-color: turquoise;*/
   position: absolute;
   background-image: url('../images/Honest-work.jpg');
-  width: 100%;
+  width: 15vw;
   height: 15vw;
   background-size: cover;
   border-radius: 50%;
