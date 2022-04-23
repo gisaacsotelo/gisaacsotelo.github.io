@@ -126,15 +126,20 @@ main {
   display: flex;
 }
 
-.blk-left, .blk-right {
+div[class^="blk-"] { /* Playing with [attribute^=value] selector to target both blks*/
   width: 15%;
 }
-div[class^="blk-"] { /* Playing with [attribute^=value] selector to target same elements as rule above*/
-  background-image: url('../images/background-blog-1.jpg');
+.blk-right {
+  background-image: url('../images/corn-field.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-
-
+  background-position: center;
+}
+.blk-left {
+  background-image: url('../images/tractor.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .content {
