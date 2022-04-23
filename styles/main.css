@@ -19,17 +19,17 @@ body {
   flex-direction: column;
 }
 header {
-  background-color: bisque;
+  background-color: #DFDFDE;
   height: 20vh;
   width: 100%;
 }
 main {
   /* background-color: aquamarine; */
-  height: 70vh;
+  max-height: 70vh;
   width: 100%;
 }
 footer {
-  background-color: cadetblue;
+  background-color: #11999E; /*rgb(17, 153, 158)*/
   height: 10vh;
   width: 100%;
 }
@@ -38,6 +38,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: end;
+  border-top: solid 2px black;
 }
 
 h1 {
@@ -57,7 +58,7 @@ h1 {
 
 /* -------Navigation--------- */
 .nav-list {
-  background-color: rgb(211, 155, 235);
+  background-color: #11999E;
   list-style: none;
   font-size: var(--big-font);
   display: flex;
@@ -89,7 +90,7 @@ div[class^="blk-"] { /* Playing with [attribute^=value] selector to target same 
 }
 
 .content {
-  background-color: bisque;
+  background-color: #DFDFDE;
   min-width: 70vw;
   display: flex;
   flex-direction: column;
@@ -112,7 +113,7 @@ div[class^="blk-"] { /* Playing with [attribute^=value] selector to target same 
 /* playing with background images instead of image tag */
 footer {
   display: flex;
-
+  border-top: solid 2px black;
 }
 
 footer > p {
