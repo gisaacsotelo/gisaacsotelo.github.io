@@ -236,6 +236,7 @@ footer > p {
   border-radius: 15px;
   width: 50vw; 
   margin: 2rem;
+  margin-right:auto;
 }
 
 .card-wrap-B {
@@ -252,6 +253,7 @@ footer > p {
   border-radius: 15px;
   width: 50vw; 
   margin: 2rem;
+  margin-left: auto;
 }
 
 .card-title > h4 {
@@ -274,6 +276,11 @@ footer > p {
   border-radius: 15px/20px;
 
   position: relative;
+}
+
+.card-content>p>span{
+  /* background-color: red; */
+  font-weight: bold;
 }
 
 div[class^="card-image-wrap-"] {
