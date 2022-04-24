@@ -301,6 +301,13 @@ div[class^="card-image-wrap-"] {
   transform: translateX(-2vw) translateY(-50%);
 }
 
+.card-image {
+  background-image: url("/images/seed.png");
+  background-size: contain;
+  background-repeat:  no-repeat;
+  transform: translateX(30%) translateY(50%);
+}
+
 /*- Tech content ---------------------------------------------------------- */
 
 .sprint-title {
