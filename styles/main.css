@@ -31,8 +31,7 @@ header {
 }
 main {
   /* background-color: aquamarine; */
-  min-height: 70vh;
-  max-height: 80vh;
+  height: auto;
   width: 100%;
 }
 footer {
@@ -302,7 +301,7 @@ div[class^="card-image-wrap-"] {
   transform: translateX(-2vw) translateY(-50%);
 }
 
-/*- Sprints content ---------------------------------------------------------- */
+/*- Tech content ---------------------------------------------------------- */
 
 .sprint-title {
   background-color: var(--title-clr);
@@ -334,17 +333,9 @@ h3 { font-size: var(--bigish-font);}
 }
 
 /* Box model */
-
-/* .box-model {
-  background-image: url("../images/box-model.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 50%;
-  border: solid 2px black;
-  margin: auto;
-  background-size: cover;
-} */
+.box-model {
+  margin-bottom: 3rem;
+}
 
 .box-model > img {
   width: 50%;
@@ -364,4 +355,13 @@ h3 { font-size: var(--bigish-font);}
 
 .box-model > p > span {
   font-weight: bold;
+}
+
+/* Core specific work----- */
+
+.core-footer {
+  background-color: var(--title-clr);
+  text-align: center;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
 }
