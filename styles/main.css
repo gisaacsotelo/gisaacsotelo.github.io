@@ -15,7 +15,7 @@
   /*Note: add color palette variables later...*/
   --background-clr: #DFDFDE;
   --title-clr: #11999E;
-  --second-background-clr: ;
+  --second-background-clr: #91c7c9;
 
 }
 
@@ -108,8 +108,9 @@ h1 {
 
 
 .secondary-nav {
-  background-color: purple;
+  background-color: #91c7c9;
   width: 100%;
+  border-bottom: 2px black solid;
 }
 
 .secondary-nav-list {
@@ -125,6 +126,7 @@ h1 {
   margin: auto;
   border: 2px solid black;
   border-top: 1px;
+  border-bottom: 0px;
   border-radius: 15px/20px;
 }
 /* ----------------------------------------------------------- */
@@ -172,6 +174,8 @@ div[class^="blk-"] { /* Playing with [attribute^=value] selector to target both 
 .first-image {
   padding: 1rem;
   margin: auto;
+  outline: solid 2px black;
+  border-radius: 5px;
 }
 /* ----------------------------------------------------------- */
 /*- Working the footer --------------------------------------- */
@@ -235,6 +239,7 @@ footer > p {
   width: 50vw; 
   margin: 2rem;
   margin-right:auto;
+  transform: translateX(-25%);
 }
 
 .card-wrap-B {
@@ -252,6 +257,7 @@ footer > p {
   width: 50vw; 
   margin: 2rem;
   margin-left: auto;
+  transform: translateX(25%);
 }
 
 .card-title > h4 {
@@ -289,7 +295,6 @@ div[class^="card-image-wrap-"] {
   border-radius:50%;
   background-color: var(--title-clr);
 }
-
 .card-image-wrap-A {
   transform: translateX(48vw) translateY(-50%);
 }
@@ -297,4 +302,66 @@ div[class^="card-image-wrap-"] {
   transform: translateX(-2vw) translateY(-50%);
 }
 
-/* Sprints content */
+/*- Sprints content ---------------------------------------------------------- */
+
+.sprint-title {
+  background-color: var(--title-clr);
+  margin-right:auto;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border: solid 2px black;
+  border-radius:  25px/25px;
+  transform: translateX(-50%);
+  margin-bottom: 2rem;
+}
+
+.sprint-topic {
+  background-color: var(--second-background-clr);
+  margin-right:auto;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: solid 2px black;
+  border-radius:  25px/25px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+h2 { font-size: var(--big-font);}
+h3 { font-size: var(--bigish-font);}
+
+.sprint-topic > p {
+  text-align: center;
+}
+
+/* Box model */
+
+/* .box-model {
+  background-image: url("../images/box-model.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 50%;
+  border: solid 2px black;
+  margin: auto;
+  background-size: cover;
+} */
+
+.box-model > img {
+  width: 50%;
+  height: auto;
+  display:block;
+  margin: auto;
+  padding: 2rem;
+}
+
+.box-model > p {
+  padding: 0.2rem;
+  align-self: center;
+  font-size: var(--standard-font);
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.box-model > p > span {
+  font-weight: bold;
+}
