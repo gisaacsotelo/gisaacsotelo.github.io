@@ -106,9 +106,10 @@ h1 {
 /* ----------------------------------------------------------- */
 /* - Working secondary navigation -----------------------------*/
 
-.secondary-navigation {
-  display: flex;
-  flex-direction: column;
+
+.secondary-nav {
+  background-color: purple;
+  width: 100%;
 }
 
 .secondary-nav-list {
@@ -117,7 +118,8 @@ h1 {
   font-size: var(--bigish-font);
   display: flex;
   gap: 2rem;
-  justify-content: center;
+  
+  align-content: center;
   padding: 0.6rem;
   width: fit-content;
   margin: auto;
@@ -148,7 +150,8 @@ div[class^="blk-"] { /* Playing with [attribute^=value] selector to target both 
   background-position: center;
 }
 
-.content {
+.home-content, .sprints-content {
+/* .content { */
   background-color: #DFDFDE;
   min-width: 70vw;
   display: flex;
@@ -157,7 +160,7 @@ div[class^="blk-"] { /* Playing with [attribute^=value] selector to target both 
   border-left: solid 3px black;
 }
 
-.content > p {
+.home-content > p {
   /* outline: 1px solid red; */
   padding: 1rem;
   align-self: center;
@@ -288,3 +291,14 @@ div[class^="card-image-wrap-"] {
 .card-image-wrap-B {
   transform: translateX(-2vw) translateY(-50%);
 }
+
+/* Sprints content */
+
+.sprints-main {
+  width: 100%;
+}
+/* 
+.sprints-main {
+  display: flex;
+  flex-direction:row
+} */
