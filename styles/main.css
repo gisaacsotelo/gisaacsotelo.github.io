@@ -416,6 +416,17 @@ h3 {
   margin: auto;
   padding: 2rem;
 }
+
+.box-example-img {
+  background-color:white;
+  background-image: url("../images/Example-box.jpg");
+  width: 80%;
+  height: 14rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: solid 2px black;
+  margin: 2rem auto;
+}
 /* Core specific work----- */
 
 .core-footer {

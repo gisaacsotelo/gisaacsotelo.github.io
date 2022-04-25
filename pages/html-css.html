@@ -4,9 +4,73 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!-- Link my Font from google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&family=Fjalla+One&display=swap" rel="stylesheet">
+  <!-- Link my .css file to my .html file -->
+  <link rel="stylesheet" href="../styles/main.css" type="text/css">
+  <title>ISB - HTML-CSS</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Isaac's Blog</h1>
+    <p class="slogan">My Web Developement Journey</p>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="tech.html"class="current-page">Tech</a></li>
+        <li><a href="core.html">Core</a></li>
+        <li><a href="#">About/Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End header -->
+  <div class="sprints-main">
+    <div class="tech-content">
+      <div class="divider-line"></div>
+      <div class="divider-line"></div>
+      <div class="sprint-title " style="margin:1rem auto; transform: translateX(0);">
+        <h2>= HTML - CSS =</h2>
+      </div>
+      <div class="divider-line"></div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic"> <!--TOPIC-->
+        <h3>Margin - Border - Padding</h3>
+        <p>- The box model -</p>
+      </div>
+      <div class="sprint-topic-content"> 
+        <p>The box model is the friendly way to talk about design and layout in CSS.</p>
+        <p>We call it the box model since every element that we use in HTML is "wrapped" around a set of boxes, we use these boxes to manupulate how we desire this elemnt to look and behave.</p>
+        <div class="box-model">
+          <img src="../images/box-model.png" alt="box model picture" width="204px" height="101px">
+        </div>
+        <p>As shown above the box layers for every HTML element are:<br></p>
+        <p><span>Margin: </span>Transparent layer around the border clear space around the border.<br></p>
+        <p><span>Border: </span>Outer layer of the element the limit of it before the margin.<br></p>
+        <p><span>Padding: </span>Transparent layer to clear space around the element, I like to think of it as puff or fluff around your element, how squishy you like it.<br></p>
+        <p><span>Content: </span>The insides of your box, where text and images are.<br></p>
+      </div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic-content">
+        <p>What HTML elements, Shrek and onions have in common?<br>
+        They all have layes!!
+        <br></p>
+        <br><p>Lets see how an element will interact with another one:</p>
+        <p>Lets imagine we have two buttons one next to another, these buttons have the same word in them and we will only modify the layers around them to see how they react.
+          <br>the distance between them will be defined by the values of the addition of padding, border and margin.
+        </p>
+        <div class="box-example-img"></div>
+        <p>Here the height of both buttons is the same since the addition of the values comes to the same number, but the distance between them differs because the margin of the right side button is bigger for both of the sides, having a distance between element of 28px.</p>
+        <br><br>
+        <div class="divider-line"></div>
+      </div>
+      </div>
+    </div>
+    <!-- End content -->
+  </div>
+  <div class="core-footer">
+    <p>Thanks for reading!</p>
+  </div>
 </body>
 </html>
