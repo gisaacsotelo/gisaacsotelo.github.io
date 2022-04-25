@@ -263,19 +263,27 @@ footer > p {
   padding: 0.3rem;
   padding-left: 1rem;
   border-radius: 15px/20px;
+  text-align: center;
 }
 
 .card-content {
   background-color: var(--background-clr);
   font-size: var(--standard-font);
-  padding: 0.3rem;
-  padding-left: 1rem;
+  padding: 1rem;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
   border: solid black 2px;
   border-radius: 15px/20px;
-
+  text-align: center;
   position: relative;
+}
+
+.card-content > a > img {
+  width: 50%;
+  height: auto;
+  border-radius:10px;
+  margin: 1rem auto;
+  outline: solid 2px black;
 }
 
 .card-content>p>span{
