@@ -303,7 +303,7 @@ div[class^="card-image-wrap-"] {
   transform: translateX(48vw) translateY(-50%);
 }
 .card-image-wrap-B {
-  transform: translateX(-2vw) translateY(-50%);
+  transform: translateX(-2vw) translateY(-50%) rotateY(180deg);
 }
 
 .card-image {
