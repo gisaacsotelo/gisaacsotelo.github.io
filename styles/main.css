@@ -307,7 +307,7 @@ div[class^="card-image-wrap-"] {
 }
 
 .card-image {
-  background-image: url("/images/seed.png");
+  background-image: url("../images/seed.png");
   background-size: contain;
   background-repeat:  no-repeat;
   transform: translateX(30%) translateY(50%);
