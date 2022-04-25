@@ -312,28 +312,35 @@ div[class^="card-image-wrap-"] {
 
 .sprint-title {
   background-color: var(--title-clr);
-  margin-right:auto;
-  margin-top: 1rem;
-  padding: 0.5rem 2rem;
   border: solid 2px black;
+  width: 20vw;
   border-radius:  25px/25px;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+  padding: 0.5rem;
   transform: translateX(-50%);
-  margin-bottom: 2rem;
+}
+
+h2 { 
+  font-size: var(--big-font);
+  text-align: center;
 }
 
 .sprint-topic {
   background-color: var(--second-background-clr);
-  margin-right:auto;
-  margin-top: 1rem;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem;
+  width: 40vw;
+  padding: 0.5rem;
   border: solid 2px black;
   border-radius:  25px/25px;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin: 1rem auto;
 }
 
-h2 { font-size: var(--big-font);}
-h3 { font-size: var(--bigish-font);}
+
+h3 { 
+  font-size: var(--bigish-font);
+  text-align: center;
+}
 
 .sprint-topic > p {
   text-align: center;
