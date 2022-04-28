@@ -9,7 +9,7 @@ Welcome to my page. I am currently using this space to learn about Web Developem
 ### Sprint 3
 #### Tech golas for sprint 3
 <!--Practicing my marckdown syntax -->
-###### Intro to JavaScript
+###### 3.1 Intro to JavaScript
 
 | OBJECTIVE                                                   | REACHED |
 | ----------------------------------------------------------- |:-------:|
@@ -26,3 +26,27 @@ Welcome to my page. I am currently using this space to learn about Web Developem
 | Switch statements                                           | &#9745; |
 | Using for loops                                             | &#9745; |
 
+###### 3.2 The DOM
+<!-- 
+|checked|unchecked|crossed|
+|---|---|---|
+|&check;|_|&cross;| 
+
+4 symbols check:
+HTML - Entities
+HTML - Symbols
+HTML - Emojis
+-->
+
+| OBJECTIVE                                                   | REACHED |
+| ----------------------------------------------------------- |:-------:|
+| Explain what the DOM is and how it relates to CSS and HTML | &#9744;
+
+
+
+###### 3.2.1 Intro to the DOM &#9744;
+###### 3.2.2 Accessing HTML elements &#9744;
+###### 3.2.3 What to do with HTML elements &#9744;
+###### 3.2.4 Events &#9744;
+###### 3.2.5 Form Submission &#9744;
+###### 3.2.6 Rese &#9744;
