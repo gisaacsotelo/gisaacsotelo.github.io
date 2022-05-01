@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link my Font from google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&family=Fjalla+One&display=swap" rel="stylesheet">
+  <!-- Link my .css file to my .html file -->
+  <link rel="stylesheet" href="../styles/main.css" type="text/css">
+  <title>ISB - HTML-CSS</title>
+</head>
+<body>
+  <header>
+    <h1>Isaac's Blog</h1>
+    <p class="slogan">My Web Developement Journey</p>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="tech.html"class="current-page">Tech</a></li>
+        <li><a href="core.html">Core</a></li>
+        <li><a href="about.html">About/Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End header -->
+  <div class="sprints-main">
+    <div class="tech-content">
+      <div class="divider-line"></div>
+      <div class="divider-line"></div>
+      <div class="sprint-title " style="margin:1rem auto; transform: translateX(0);">
+        <h2>= JavaScript (Intro) =</h2>
+      </div>
+      <div class="divider-line"></div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic"> <!--TOPIC-->
+        <h3>JavaScript and its relationship to HTML and CSS.</h3>
+        <p>- An analogy to describe  -</p>
+      </div>
+      <div class="sprint-topic-content"> 
+        <p>
+          Imagine HTML as a wooden puppet, just wood no clothes no paint.
+<br>CSS would be the paint and clothing of our puppet, now it becomes more entretaining but we still have to move everythign ourselves.
+<br>Javascript would be the strings that help us make the puppet move and interact with other things, is what makes the magic of movement (for th epuppet at least bc we have animations in CCS but dont think in the color red for now...)
+        </p>
+      </div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic"> <!--TOPIC-->
+        <h3>Explain control flow and loops using an example process from life</h3>
+        <p>- "Everyday" life  -</p>
+      </div>
+      <div class="sprint-topic-content"> 
+        <p>
+          Control flow is the steps to follow what will happen if, what will happen when, what if's, and whatnot...
+          <br>
+          <br>Eating in an all you can eat buffet:
+          <br>
+          <br>1. Start eating:
+          <br>
+          <br>2. Are you full?
+          <br>
+          <br>2.1. (Yes) - (Are you like Im going to die if I dont stop eating full?)
+          <br>    2.1.1. (Yes) - (For real?)
+          <br>          2.1.1.1. (Yes!!) - Ok, Stop eating, weakness disgust me....
+          <br>
+          <br>2.1. (Never!) - Keep eating champ!
+          <br>   2.1.1. (Nah! just kidding!) - Keep eating champ!
+          <br>         2.1.1.1. (N-n-n-no...) - Keep eating champ! 
+          <br>
+          <br>
+          <br>Basically eat till you drop!
+          <br>
+          <br>-OR-
+          <br>
+          <br>1. Start eating
+          <br>2. if (full == true){
+            <br> Stop eating
+            <br>} else {
+              <br>  Keep eating!
+              <br>}
+        </p>
+      </div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic"> <!--TOPIC-->
+        <h3>Describe what the DOM is and an example of how you might interact with it</h3>
+        <p>- Document Object Model  -</p>
+      </div>
+      <div class="sprint-topic-content"> 
+        <p>
+          <br>The DOM is what ties everything together! (between CSS, HTML and Javascript at least!)
+          <br>Is what allow everything to intercat with each other it all happens inside the DOM, is is like the special glue that binds the wood puppet, with its clothes and strings to make it dance!
+          <br>
+          <br>Example:
+          <br>I interact with the by using it as a point reference to locate everything isnide it, that way I can select the elements that I am interested in modifying or interacting with.
+          <br>
+          <br>We need the DOM, long live the DOM!
+        </p>
+      </div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic"> <!--TOPIC-->
+        <h3>Explain the difference between accessing data from arrays and objects.</h3>
+        <p>- OBJECTS vs ARRAYS  -</p>
+      </div>
+      <div class="sprint-topic-content"> 
+        <p>
+          <br>OBJECTS
+          <br>I see objects as "things" inside our code, things with characteristics saved inside (key: value).
+          <br>for objects, these characteristics (saved inside each object) are called properties.
+          <br>(Objects can cointain arryas inside them)
+          <br>
+          <br>Example:
+          <br>let myObject = {
+          <br>  key1: 'thisValue',
+          <br>  key2: [value-0, value-1,...value-x]
+          <br>}
+          <br>
+          <br>The PROPERTIES inside them can be accessed and manipulated by using dot or bracket notation
+          <br> 
+          <br>myObject.key1 // Output will be: thisValue
+          <br>myObject['key1'] // Output will be: thisValue
+          <br>
+          <br>ARRAYS
+          <br>So far we have been using them for storing more information, they are ORDERED collections of information.
+          <br>We store multiple values inside a single variable.
+          <br>This ones can also be accessed by bracket notation.
+          <br>
+          <br>Example:
+          <br>myArray = [value-0, value-1, ..., value-x]
+          <br>
+          <br>Accessing it with bracket notation:
+          <br>myArray[1] // Output: value-1  (*REMEMBER - We count from cero!) 
+          <br>
+          <br>In short I would distinguish them by 2 things:
+          <br>1. Objects display their information using the (key: value) notation.
+          <br>2. Objects represnt things and Arrays represent information (ordered information).
+        </p>
+      </div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic"> <!--TOPIC-->
+        <h3>Explain what functions are and why they are helpful.</h3>
+        <p>- Lazy is the Way!  -</p>
+      </div>
+      <div class="sprint-topic-content"> 
+        <p>
+          <br>Functions allow us to re-use code sections that we need multiple times.
+          <br>Instead of copy pasting every single time, we can define a process (instructions), and put them inside a function, then whenever we need to use the function we can call it.
+                  <br>
+          <br>We also need to define what type of function will it be, if it requires parameters as inputs and if it retunrs anything after.
+                  <br>
+          <br>Example:
+                  <br>
+          <br>function myFunctionName('parametersIfRequired, SeparateThemUsingCommas) {
+          <br>  Intructions to perform
+          <br>  ....
+          <br>  (loops, operations, calls to other functions etc...)
+          <br>  if (My function returns anything?) {
+          <br>    return (Whatever is returning)
+          <br>  } 
+          <br>}
+          <br>
+          <br>Free wording:
+          <br>
+          <br>You can imagine functions as helpers.
+          <br>Instead of waking up, grinding coffee, brewing, serving it, then drinking it.
+          <br>Think of a function as if you build a coffee maker that will grind the required amount of coffee brew it and put in your mug for you.
+          <br>You build it one and then you can re-use it every morning!
+          <br>
+          <br>In programming lazy is good be lazy, make as many functions required so you dont have to do all the tedius work of writing and writing again!
+        </p>
+    </div>
+  </div>
+</div>
+<!-- End content -->
+</div>
+<div class="core-footer">
+<p>Thanks for reading!</p>
+</div>
+</body>
+</html>
