@@ -37,10 +37,19 @@ Basically eat till you drop!
 
 ----------------------------------------------------------------------------------
 Q - Describe what the DOM is and an example of how you might interact with it.
-
+----------------------------------------------------------------------------------
 A - 
+The DOM is what ties everything together! (between CSS, HTML and Javascript at least!)
+Is what allow everything to intercat with each other it all happens inside the DOM, is is like the special glue that binds the wood puppet, with its clothes and strings to make it dance!
+
+Example:
+I interact with the by using it as a point reference to locate everything isnide it, that way I can select the elements that I am interested in modifying or interacting with.
+
+We need the DOM, long live the DOM!
+
 ----------------------------------------------------------------------------------
 Q - Explain the difference between accessing data from arrays and objects.
+----------------------------------------------------------------------------------
 A - 
 OBJECTS
 I see objects as "things" inside our code, things with characteristics saved inside (key: value).
@@ -74,8 +83,9 @@ In short I would distinguish them by 2 things:
 2. Objects represnt things and Arrays represent information (ordered information).
 
 ----------------------------------------------------------------------------------
-Explain what functions are and why they are helpful.
+Q - Explain what functions are and why they are helpful.
 ----------------------------------------------------------------------------------
+A - 
 Functions allow us to re-use code sections that we need multiple times.
 Instead of copy pasting every single time, we can define a process (instructions), and put them inside a function, then whenever we need to use the function we can call it.
 
