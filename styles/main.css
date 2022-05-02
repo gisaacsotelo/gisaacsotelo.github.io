@@ -16,8 +16,42 @@
   --background-clr: #DFDFDE;
   --title-clr: #11999E;
   --second-background-clr: #91c7c9;
-
+  --code-background-clr: rgba(64,64,64,1);
 }
+
+/* Formats meant to p elements inside my content by spans */
+
+/* Tab spaces 4 spans */
+.tab {margin-left: 2rem;}
+.tab2 {margin-left: 4rem;}
+/* center text */
+.center-text {
+  display:block;
+  text-align: center;}
+  /* bold */
+.bold {font-weight: bold;}
+/* code -  for making it look like code */
+.isCode {
+  background-color: var(--code-background-clr);
+  /* border: 1px solid black; */
+  /* border-top: 20px; */
+  font-family: monospace;
+  color: whitesmoke;
+  padding: 1rem;
+  margin: 2rem;
+  line-height: 1.3rem; 
+  border-radius: 5px;
+  /* box-shadow: horizontal vertical blur spread color;
+      horizontal  +value: shadow on the right
+                  -value: shadow on the left
+      vertical    +value: below box
+                  -value: above box
+      blur        0 = sharp  higher number more blurred
+  */
+  box-shadow:  0.2rem 0.2rem 10px rgb(22, 21, 21); 
+}
+
+
 
 /* -------------------------- */
 body { 
