@@ -4,36 +4,58 @@
   padding: 0;
   margin: 0;
 }
-/* CSS Variables -  To practice them */
+/*
+^---------------------------------
+^ ----- VARIABLES------------
+*/
 :root {
   font-size: 16px;
+  /* fonts */
   --massive-font: 4rem;
   --big-font: 2rem;
   --bigish-font: 1.5rem;
   --standard-font: 1.3rem;
   --small-font: 1rem;
-  /*Note: add color palette variables later...*/
+/* background colors */
   --background-clr: #DFDFDE;
-  --title-clr: #11999E;
+  --title-background-clr: #11999E;
   --second-background-clr: #91c7c9;
   --code-background-clr: rgba(64,64,64,1);
 }
 
-/* Formats meant to p elements inside my content by spans */
-/* call it by adding <span> w required class */
-/* Tab spaces 4 spans */
+/* 
+TODO-------------------------------------------------------------------------------|
+TODO--------------------------Todo List--------------------------------------------|
+TODO-------------------------------------------------------------------------------|
+------No specific order
+
+- Format title classes to: 
+      For entries - new blogs - tech, core etc..       
+      main-title (Sprints)
+      (section topic)
+      (section question)
+
+
+TODO-------------------------End Todo List-----------------------------------------|
+TODO-------------------------------------------------------------------------------|
+*/
+
+/* 
+^---------------------------------
+^ ----- TEXT FORMATING------------
+ */
+ /* tab space */
 .tab {margin-left: 2rem;}
 .tab2 {margin-left: 4rem;}
 /* center text */
-.center-text {
+.isCenter {
   display:block;
   text-align: center;}
-  /* bold */
-.isBold {
-  font-weight: bold;}
-/* code -  for making it look like code */
+/* bold */
+.isBold {font-weight: bold;}
 
-/* Sections: Text, code */
+
+/* code -  for making it look like code */
 .isCode {
   background-color: var(--code-background-clr);
   /* border: 1px solid black; */
@@ -41,7 +63,7 @@
   font-family: monospace;
   color: whitesmoke;
   padding: 1rem;
-  margin: 2rem;
+  margin: 1rem 8rem;
   line-height: 1.3rem; 
   border-radius: 5px;
   /* box-shadow: horizontal vertical blur spread color;
@@ -54,6 +76,9 @@
   box-shadow:  0.2rem 0.2rem 10px rgb(22, 21, 21); 
 }
 
+.isComment {color:rgb(195, 231, 131)}
+
+/* ---------Normal text */
 .isText {
   padding: 0.2rem;
   font-size: var(--standard-font);
@@ -61,9 +86,10 @@
   text-align: justify;
 }
 
-
-
-/* -------------------------- */
+/*
+ ^----------------------------------
+ ^--------------LAYOUT--------------
+ */
 body { 
   display: flex;
   flex-direction: column;
@@ -83,8 +109,13 @@ footer {
   max-height: 10vh;
   width: 100%;
 }
-/* ----------------------------------------------------------- */
-/*- Working the header -------------------------------------*/
+/* 
+^-----------------\\\\\ START HEADER /////------------------------
+^------------------ |                  |
+
+
+^-------- Working the header ----------
+*/
 header {
   display: flex;
   flex-direction: column;
@@ -105,8 +136,9 @@ h1 {
   text-align: center;
  }
 
-/* ----------------------------------------------------------- */
-/* -------Navigation------------------------------------------- */
+/* 
+^------------------ NavBar ---------------------
+*/
 .nav-list {
   background-color: #11999E;
   list-style: none;
@@ -142,9 +174,9 @@ h1 {
   top: calc(var(--big-font)* 0.85);
   left: 5px;
 }
-/* ----------------------------------------------------------- */
-/* - Working secondary navigation -----------------------------*/
-
+/* 
+^--------- Secondary NavBar ------------------
+*/
 
 .secondary-nav {
   background-color: #91c7c9;
@@ -170,8 +202,11 @@ h1 {
 .secondary-nav-list > li > a {
   text-decoration: none;
 }
-/* ----------------------------------------------------------- */
-/* - Working the main ------------------------------------------- */
+/* 
+^-----------------\\\\\ END HEADER /////------------------------
+^------------------ |                |
+^-----------------\\\\\ START MAIN /////------------------------
+*/
 
 main {
   display: flex;
@@ -202,8 +237,8 @@ div[class^="blk-"] { /* Playing with [attribute^=value] selector to target both 
   border-left: solid 3px black;
 }
 
+
 .home-content > p {
-  /* outline: 1px solid red; */
   padding: 1rem;
   align-self: center;
   font-size: var(--standard-font);
@@ -301,7 +336,7 @@ footer > p {
 }
 
 .card-title > h4 {
-  background-color: var(--title-clr);
+  background-color: var(--title-background-clr);
   font-size: var(--bigish-font);
   border: 2px solid black;
   padding: 0.3rem;
@@ -329,14 +364,14 @@ footer > p {
   margin: 1rem auto;
   outline: solid 2px black;
 }
-/* --------------------------------------------------------------------- */
-/* Prob need erasing--------------------------------------------- CHECK! */
-/* I moved this code to the "isBold" class for spans*/
-/* --------------------------------------------------------------------- */
-.card-content>p>span{
-  /* background-color: red; */
+/* todo--------------------------------------------------------------------- */
+/* todo --Prob need erasing--------------------------------------------- CHECK! */
+/* todo I moved this code to the "isBold" class for spans*/
+/* todo ------------------------------------------------------------------ */
+/* .card-content>p>span{
   font-weight: bold;
-}
+} 
+*/
 
 div[class^="card-image-wrap-"] {
   border: solid 2px black;
@@ -344,7 +379,7 @@ div[class^="card-image-wrap-"] {
   width: 3vw;
   height: 3vw;
   border-radius:50%;
-  background-color: var(--title-clr);
+  background-color: var(--title-background-clr);
 }
 .card-image-wrap-A {
   transform: translateX(48vw) translateY(-50%);
@@ -371,7 +406,7 @@ div[class^="card-image-wrap-"] {
 }
 
 .sprint-title {
-  background-color: var(--title-clr);
+  background-color: var(--title-background-clr);
   border: solid 2px black;
   width: 20vw;
   border-radius:  25px/25px;
@@ -455,9 +490,9 @@ h3 {
  TODO: I moved this code to the "isBold" class for sections
  TODO: ---------------------------------------------------------------------*/ 
  
- .sprint-topic-content > p > span {
+ /* .sprint-topic-content > p > span {
   font-weight: bold;
-}
+} */
 .box-model {
   margin-bottom: 3rem;
 }
@@ -483,7 +518,7 @@ h3 {
 /* Core specific work----- */
 
 .core-footer {
-  background-color: var(--title-clr);
+  background-color: var(--title-background-clr);
   text-align: center;
   border-top: solid 2px black;
   border-bottom: solid 2px black;

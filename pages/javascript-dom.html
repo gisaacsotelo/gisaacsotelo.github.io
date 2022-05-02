@@ -40,47 +40,51 @@
         <p>- An analogy to describe  -</p>
       </div>
       <div class="sprint-topic-content"> 
-        <p>
-          Imagine HTML as a wooden puppet, just wood no clothes no paint.
-<br>CSS would be the paint and clothing of our puppet, now it becomes more entretaining but we still have to move everythign ourselves.
-<br>Javascript would be the strings that help us make the puppet move and interact with other things, is what makes the magic of movement (for th epuppet at least bc we have animations in CCS but dont think in the color red for now...)
-        </p>
+        <section class="isText">
+          <p>
+            <br>Imagine HTML as a wooden puppet, just wood no clothes no paint.
+            <br>CSS would be the paint and clothing of our puppet, now it becomes more entretaining but we still have to move everythign ourselves.
+            <br>Javascript would be the strings that help us make the puppet move and interact with other things, is what makes the magic of movement (for the puppet at least bc we have animations in CCS but dont think in the color red for now...)
+            <br>
+            <br>
+          </p>
+        </section>
       </div>
       <div class="divider-line"></div>
       <div class="sprint-topic"> <!--TOPIC-->
         <h3>Explain control flow and loops using an example process from life</h3>
-        <p>- "Everyday" life  -</p>
+        <p class="topic-subTitle">- "Everyday" life  -</p>
       </div>
       <div class="sprint-topic-content"> 
-        <p>
-          Control flow is the steps to follow what will happen if, what will happen when, what if's, and whatnot...
-          <br>
-          <br>Eating in an all you can eat buffet:
-          <br>[Q] - Question | [A] - Answer | [I] - Instruction
-          <br>
-          <br>1. [I] Start eating:
-          <br>2. [Q] Are you full?
-          <br>2.1. [A] Yes. | [Q] - Are you like Im going to die if I dont stop eating full?
-          <br><span class="tab"></span>2.1.1. [A] Yes | [Q] For real?
-          <br><span class="tab2"></span>2.1.1.1. [A] Yes!! - [I] Ok, Stop eating, weakness disgust me....
-          <br>
-          <br>2.1. [A] Never! | [I] Keep eating champ!
-          <br><span class="tab"></span>2.1.1. [A] Nah! just kidding! - [I} Keep eating champ!
-          <br><span class="tab2"></span>2.1.1.1. [A] N-n-n-no... - [I] Keep eating champ! 
-          <br>
-          <br><span class="center-text">Basically eat till you drop!</span>
-          <br>
-          <br>-OR-
-          <br>
-          <section class="isCode">
-            Start eating
-            <br><span class="tab"></span>if (full == true){
-            <br><span class="tab2"></span>Stop eating
-            <br><span class="tab"></span>} else {
-            <br><span class="tab"></span>Keep eating!
-            <br>}
-          </section>
-        </p>
+        <section class="isText">
+          <p>
+            Control flow is the steps to follow what will happen if, what will happen when, what if's, and whatnot...
+            <br>
+            <br>Eating in an all you can eat buffet:
+            <br>[Q] - Question | [A] - Answer | [I] - Instruction
+            <br>
+            <br>1. [I] Start eating:
+            <br>2. [Q] Are you full?
+            <br>2.1. [A] Yes. | [Q] - Are you like Im going to die if I dont stop eating full?
+            <br><span class="tab"></span>2.1.1. [A] Yes | [Q] For real?
+            <br><span class="tab2"></span>2.1.1.1. [A] Yes!! - [I] Ok, Stop eating, weakness disgust me....
+            <br>
+            <br>2.1. [A] Never! | [I] Keep eating champ!
+            <br><span class="tab"></span>2.1.1. [A] Nah! just kidding! - [I} Keep eating champ!
+            <br><span class="tab2"></span>2.1.1.1. [A] N-n-n-no... - [I] Keep eating champ! 
+            <br>
+            <br><span class="isCenter isBold">Basically eat till you drop!</span>
+            <br><span class="isCenter">-OR-</span>
+          </p>
+        </section>
+        <section class="isCode">
+          Start eating
+          <br><span class="tab"></span>if (full == true){
+          <br><span class="tab2"></span>Stop eating
+          <br><span class="tab"></span>} else {
+          <br><span class="tab"></span>Keep eating!
+          <br>}
+        </section>
       </div>
       <div class="divider-line"></div>
       <div class="sprint-topic"> <!--TOPIC-->
@@ -89,10 +93,10 @@
       </div>
       <div class="sprint-topic-content isText"> 
         <p>
-          <br>The DOM is what ties everything together! (between CSS, HTML and Javascript at least!)
+          <br>The <span class="isBold">DOM</span> is what ties everything together! (between CSS, HTML and Javascript at least!)
           <br>Is what allow everything to intercat with each other it all happens inside the DOM, is is like the special glue that binds the wood puppet, with its clothes and strings to make it dance!
           <br>
-          <br>Example:
+          <br><span class="isBold">Example:</span>
           <br>I interact with the by using it as a point reference to locate everything isnide it, that way I can select the elements that I am interested in modifying or interacting with.
           <br>
           <br>We need the DOM, long live the DOM!
@@ -103,7 +107,7 @@
         <h3>Explain the difference between accessing data from arrays and objects.</h3>
         <p>- OBJECTS vs ARRAYS  -</p>
       </div>
-      <div class="sprint-topic-content isText">
+      <div class="sprint-topic-content">
         <p>
           <br><span class="isBold">OBJECTS</span>
           <br>I see objects as "things" inside our code, things with characteristics saved inside (key: value).
@@ -113,18 +117,26 @@
           <br><span class="isBold">Example:</span>
         </p>
         <section class="isCode">
-          <br>let myObject = {
-          <br>  key1: 'thisValue',
-          <br>  key2: [value-0, value-1,...value-x]
-          <br>}
+          <p>
+            let myObject = {
+            <br>  key1: 'thisValue',
+            <br>  key2: [value-0, value-1,...value-x]
+            <br>}
+          </p>
         </section>
         <section class="isText">
           <p>
-          <br>The PROPERTIES inside them can be accessed and manipulated by using dot or bracket notation
-          <br> 
-          <br>myObject.key1 // Output will be: thisValue
-          <br>myObject['key1'] // Output will be: thisValue
-          <br>
+            <br>The PROPERTIES inside them can be accessed and manipulated by using dot or bracket notation
+            <br>
+          </p> 
+        </section>
+        <section class="isCode">
+          <p>
+            myObject.key1 <span class="isComment">// Output will be: thisValue</span>
+            <br>myObject['key1'] <span class="isComment">// Output will be: thisValue</span>
+          </p>
+        </section class="isText">
+          <p>
           <br>ARRAYS
           <br>So far we have been using them for storing more information, they are ORDERED collections of information.
           <br>We store multiple values inside a single variable.
