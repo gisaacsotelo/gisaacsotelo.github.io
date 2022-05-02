@@ -20,7 +20,7 @@
 }
 
 /* Formats meant to p elements inside my content by spans */
-
+/* call it by adding <span> w required class */
 /* Tab spaces 4 spans */
 .tab {margin-left: 2rem;}
 .tab2 {margin-left: 4rem;}
@@ -29,8 +29,11 @@
   display:block;
   text-align: center;}
   /* bold */
-.bold {font-weight: bold;}
+.isBold {
+  font-weight: bold;}
 /* code -  for making it look like code */
+
+/* Sections: Text, code */
 .isCode {
   background-color: var(--code-background-clr);
   /* border: 1px solid black; */
@@ -49,6 +52,13 @@
       blur        0 = sharp  higher number more blurred
   */
   box-shadow:  0.2rem 0.2rem 10px rgb(22, 21, 21); 
+}
+
+.isText {
+  padding: 0.2rem;
+  font-size: var(--standard-font);
+  margin: 2em;
+  text-align: justify;
 }
 
 
@@ -319,7 +329,10 @@ footer > p {
   margin: 1rem auto;
   outline: solid 2px black;
 }
-
+/* --------------------------------------------------------------------- */
+/* Prob need erasing--------------------------------------------- CHECK! */
+/* I moved this code to the "isBold" class for spans*/
+/* --------------------------------------------------------------------- */
 .card-content>p>span{
   /* background-color: red; */
   font-weight: bold;
@@ -436,7 +449,13 @@ h3 {
   margin-left: 2em;
   margin-right: 2em;
 }
-.sprint-topic-content > p > span {
+
+/* TODO: --------------------------------------------------------------- 
+ TODO: Prob need erasing--------------------------------------------- CHECK! 
+ TODO: I moved this code to the "isBold" class for sections
+ TODO: ---------------------------------------------------------------------*/ 
+ 
+ .sprint-topic-content > p > span {
   font-weight: bold;
 }
 .box-model {
