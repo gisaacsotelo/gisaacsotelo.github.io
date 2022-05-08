@@ -26,20 +26,35 @@
 /* For mobile I want:
  The navbar on the bottom (that pop up when hovered)
 The header to stay on top but get lost as soon as we scroll down */
-header {
-background-color: 
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-content {
+header {
+background-color: burlywood;
+height: 10vh;
+order: 1
+}
 
+main {
+background-color: #bdc991;
+max-height: 95vh;
+min-height: 80vh;
+order: 5
 }
 
 footer {
-
+background-color: #91c7c9;
+height: 5vh;
+order: 9;
 }
 
 .main-navbar {
-
+background-color: blueviolet;
+min-height: 5vh;
+max-height: 10vh;
+order: 10;
 }
 
 /** Working on the .main-navbar */
