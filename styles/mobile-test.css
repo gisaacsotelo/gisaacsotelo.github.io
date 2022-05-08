@@ -1,0 +1,57 @@
+/* Initializing targeting universal selector to ensure the page will look the same in all the browsers */
+*, ::before, ::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* ------------------------------------------------------------------ */
+:root {
+  font-size: 16px;
+  /* fonts */
+  --massive-font: 4rem;
+  --big-font: 2rem;
+  --bigish-font: 1.5rem;
+  --standard-font: 1.3rem;
+  --small-font: 1rem;
+/* background colors */
+  --background-clr: #DFDFDE;
+  --title-background-clr: #11999E;
+  --second-background-clr: #91c7c9;
+  --code-background-clr: rgba(64,64,64,1);
+}
+
+/** -------- Working Header (mobile) ---------------- */
+
+/**----- Layout --- */
+/* For mobile I want:
+ The navbar on the bottom (that pop up when hovered)
+The header to stay on top but get lost as soon as we scroll down */
+header {
+background-color: 
+}
+
+content {
+
+}
+
+footer {
+
+}
+
+.main-navbar {
+
+}
+
+/** Working on the .main-navbar */
+
+.nav-list{
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-list > li > a {
+ text-decoration: none;
+}
+
+

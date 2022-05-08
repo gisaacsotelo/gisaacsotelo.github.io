@@ -50,3 +50,18 @@ HTML - Emojis
 ###### 3.2.4 Events &#9744;
 ###### 3.2.5 Form Submission &#9744;
 ###### 3.2.6 Rese &#9744;
+
+### Sprint 4
+
+#### Tech golas for sprint 4
+
+###### 4.1 Code Readability
+###### 4.2 Introduction to ES6
+###### 4.3 Testing
+###### 4.4 REPL.it - Setup
+###### 4.5 JS Methods
+###### 4.6 Problem solving and Pseudocode
+###### 4.7 JS Kata
+###### 4.8 Technical Blog - Problem Solving
+###### 4.9 Zen Garden
+
