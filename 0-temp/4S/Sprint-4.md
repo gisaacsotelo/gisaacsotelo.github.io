@@ -88,7 +88,7 @@ By the end of this exercise, you will have:
 
 3. Blend with your learning plan and strategies
 
-  This makes me take more seriously this whole area of studying, I have always believed it, but now I think I havent prioritized it as much as I should have, will have to re-evaluate my times and make sure to add more times for reflection since its is when thing kind of ground into your brain (thats the closest feeling explanation I feel when doing it)
+  This makes me take more seriously this whole area of studying, I have always believed it, but now I think I havent prioritized it as much as I should have, will have to re-evaluate my times and make sure to add more times for reflection since its is when things kind of ground into your brain (thats the closest feeling explanation I get when doing it)
 
 --------------------------------------------
 <!-- 
@@ -223,33 +223,68 @@ Research:
 Tell your non-tech friend a story about a time you:
 
 1. were blocked on a simple problem.
-  - What was the problem? 
-  - What problem-solving techniques did you use?
-  - How did you feel throughout the process?
-  - What did you learn?
+
+Well when I was studying I remember we have some coding classes, was lower level so we had to use flags and memory allocations quite a bit, this was SO frustraiting, most of the mistakes we did while doing these projects where missing semi-colons, misisng turn flags down after using them, like well really simple stuff to be honest.
+
+Here we kind of already break everything to the lowest which was nice and really sticks with you at least some of it, it was around a decade ago.
+
+When we where finally able to finsih our projects (like not good looking projects), Im talking about, "Hey look a spend 3 weeks making this watch code able to save an alarm for you, and it works!", but that is not the point, projects where not flashy but they really took it on us the stuff was hard to do, so when it was finally working you where so happy amazed on how hard it was to make and how easy it is to break.
+
+Our teacher use to say, and will remember this for the rest of my days.
+
+"The devil hides in the details"
+
+I cannot agree more.
+
 
 2. elegantly solved a problem.
-  - What was the problem?
-  - What problem-solving techniques did you use?
-  - How did you feel throughout the process?
-  - What did you learn?
 
+    The Bizz Buzz (first) function.
+    I  remember I started a bit late this part, so I was already able to read some comment ondiscord about this Bizz Buzz and bees chat, I was like oh boy this will be hard, so spend some time trying to explain myself things that I wasnt fully sure, regarding basic concepts.
+
+    When I start doing this challenge I complete breezed through it (cof cof just the first function tho, the othres destroy my will and build it back up), but on this first one was when I came with the idea of making the console.log explain me what to do, and this worked beautifully.
+
+    Mainly I learned that the work pays off little by little, to trust the process they are not teaching us and showing us things that wont help us in an intensie course, and just to try to give the time and space to all the areas that I can.
 
 Reflect on:
 
-Pseudocode - Yup do it
+- Pseudocode 
 
-Trying something - No other way to start
+    This has quickly become my go to, realized how much time I have been loosing just loosing the point midway of tryin to achieve what I was going with my code then I get distracted by something anf poof! there I go to a tangencial google search regarding why console log looks differently in reptl than in VS Code.
 
-Rubber ducky method - console.log
+    Pseudocoding helps me keeping myself in track of what I decided was the way to achieve the goal before starting coding, when I notice Im going to far from it or just lost myself I got these reminders to help me get back where I was and being more productive, so far super usefull.
 
-Reading error messages - first step to solve a problem
+- Trying something 
+  
+  There is no other way to move forward, Look at it as if it doesnt work is one thing that you at least dont need to try again, if it wworks well great!
 
-Console.logging - for me this is the duck method
+- Rubber ducky method 
 
-Googling - right after rememering fails
+  I didn't knew this approach before this sprint I try somethign similar with the use of my console.logs, I basically try to make the console to explain me what is doing and what it will do after and where is getting the values is getting, this really hel me improve the way I target my elements, but was worth it for the sake of learning.
 
-Asking your peers for help - 
+- Reading error messages
+
+  Well, for me this will be like the first step after you get an error, to know at least the line where it happened.
+
+  I would say definitively usefull and yes, we all should do it.
+
+
+- Console.logging 
+
+  Quak!... Yeah I used this a lot...like a lot.
+  Would like to learn more in depth debugging but there will be a time for that.
+  My advice would be to use it too.
+  
+
+- Googling 
+
+  Well I google everyhting, like how do you spell "definitively", then after reading it I somehow manage to write it wrong again, and just corrected it, and you will never see that mistake, Thanks google!
+  
+  P.S - Ignore all my other syntax mistakes, I have like hard keyboard dislexya, Im sure you have notice if you have been reeding my post so far, still waiting to be able to get a gramarly extension or something on here, but till then.... 
+
+
+Asking your peers for help
+
 I have asked when I feel is important or might push me back too much(like when I was struggling with setup), but in these scenarios where I still got some time and I know the answer is there im just not able to reach it yet, I just like the challenge and to stuggle with it till it cracks hehe, but I do understand the importance of asking for a hand when it really needed, Im sure I will be there soon too xD
 
 Asking coaches for help
