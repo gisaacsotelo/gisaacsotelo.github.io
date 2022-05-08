@@ -9,16 +9,197 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&family=Fjalla+One&display=swap" rel="stylesheet">
   <!-- Link my .css file to my .html file -->
-  <link rel="stylesheet" href="../styles/mobile-test.css" type="text/css">
-  <title>ISB - HTML-CSS</title>
+  <!-- <link rel="stylesheet" href="../styles/mobile-test.css" type="text/css"> -->
+  <link rel="stylesheet" href="../styles/main.css" type="text/css">
+  <title>ISB - Neuroplasticity</title>
 </head>
 <body>
   <header>
     <h1>Isaac's Blog</h1>
     <p class="slogan">My Web Developement Journey</p>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="tech.html">Tech</a></li>
+        <li><a href="core.html"class="current-page">Core</a></li>
+        <li><a href="about.html">About/Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <!-- End header -->
-  <!-- strat main-navbar -->
+  <div class="sprints-main">
+    <div class="tech-content">
+      <div class="divider-line"></div>
+      <div class="divider-line"></div>
+      <div class="sprint-title " style="margin:1rem auto; transform: translateX(0);">
+        <h2>= Neuroplasticity =</h2>
+      </div>
+      <div class="divider-line"></div>
+      <div class="divider-line"></div>
+      <!--TOPIC-->
+      <div class="sprint-topic"> 
+        <h3>How understanding the principles of neuroplasticity benefits people.</h3>
+        <p>- You never stop learning!  -</p>
+      </div>
+      <div class="sprint-topic-content"> 
+        <section class="isText">
+          <p>
+          
+          </p>
+        </section>
+      </div>
+      <div class="divider-line"></div>
+      <!--TOPIC-->
+      <div class="sprint-topic">
+        <h3>Explain control flow and loops using an example process from life</h3>
+        <p class="topic-subTitle">- "Everyday" life  -</p>
+      </div>
+      <div class="sprint-topic-content"> 
+        <section class="isText">
+          <p>
+            
+          </p>
+        </section>
+      </div>
+      <div class="divider-line"></div>
+      <!--TOPIC-->
+      <div class="sprint-topic"> 
+        <h3></h3>
+        <p>-   -</p>
+      </div>
+      <div class="sprint-topic-content isText"> 
+        <p>
+          
+        </p>
+      </div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic"> <!--TOPIC-->
+        <h3></h3>
+        <p>-   -</p>
+      </div>
+      <div class="sprint-topic-content">
+        <p>
+          
+        </p>
+        <section class="isCode">
+          <p>
+            let myObject = {
+            <br>  key1: 'thisValue',
+            <br>  key2: [value-0, value-1,...value-x]
+            <br>}
+          </p>
+        </section>
+        <section class="isText">
+          <p>
+            <br>The PROPERTIES inside them can be accessed and manipulated by using dot or bracket notation
+            <br>
+          </p> 
+        </section>
+        <section class="isCode">
+          <p>
+            myObject.key1 <span class="isComment">// Output will be: thisValue</span>
+            <br>myObject['key1'] <span class="isComment">// Output will be: thisValue</span>
+          </p>
+        </section class="isText">
+          <p>
+          <br>ARRAYS
+          <br>So far we have been using them for storing more information, they are ORDERED collections of information.
+          <br>We store multiple values inside a single variable.
+          <br>This ones can also be accessed by bracket notation.
+          <br>
+          <br>Example:
+          <br>myArray = [value-0, value-1, ..., value-x]
+          <br>
+          <br>Accessing it with bracket notation:
+          <br>myArray[1] // Output: value-1  (*REMEMBER - We count from cero!) 
+          <br>
+          <br>In short I would distinguish them by 2 things:
+          <br>1. Objects display their information using the (key: value) notation.
+          <br>2. Objects represnt things and Arrays represent information (ordered information).
+          </p>
+        </section>
+      </div>
+      <div class="divider-line"></div>
+      <div class="sprint-topic"> <!--TOPIC-->
+        <h3>Explain what functions are and why they are helpful.</h3>
+        <p>- Lazy is the Way!  -</p>
+      </div>
+      <div class="sprint-topic-content isText"> 
+        <p>
+          <br>Functions allow us to re-use code sections that we need multiple times.
+          <br>Instead of copy pasting every single time, we can define a process (instructions), and put them inside a function, then whenever we need to use the function we can call it.
+                  <br>
+          <br>We also need to define what type of function will it be, if it requires parameters as inputs and if it retunrs anything after.
+                  <br>
+          <br>Example:
+                  <br>
+          <br>function myFunctionName('parametersIfRequired, SeparateThemUsingCommas) {
+          <br>  Intructions to perform
+          <br>  ....
+          <br>  (loops, operations, calls to other functions etc...)
+          <br>  if (My function returns anything?) {
+          <br>    return (Whatever is returning)
+          <br>  } 
+          <br>}
+          <br>
+          <br>Free wording:
+          <br>
+          <br>You can imagine functions as helpers.
+          <br>Instead of waking up, grinding coffee, brewing, serving it, then drinking it.
+          <br>Think of a function as if you build a coffee maker that will grind the required amount of coffee brew it and put in your mug for you.
+          <br>You build it one and then you can re-use it every morning!
+          <br>
+          <br>In programming lazy is good be lazy, make as many functions required so you dont have to do all the tedius work of writing and writing again!
+        </p>
+    </div>
+  </div>
+</div>
+<!-- End content -->
+</div>
+<div class="core-footer">
+<p>Thanks for reading!</p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+  mobile
+
+<body>
+  <header>
+    <h1>Isaac's Blog</h1>
+    <p class="slogan">My Web Developement Journey</p>
+  </header>
+
+  <!-- End header--
+  <!-- strat main-navbar-- 
+
   <nav class="main-navbar">
     <ul class="nav-list">
       <li><a href="../index.html">Home</a></li>
@@ -27,8 +208,10 @@
       <li><a href="about.html">About/Contact</a></li>
     </ul>
   </nav>
-  <!-- End navbar -->
-  <!-- strat content -->
+
+  <!-- End navbar 
+  <!-- strat content 
+
   <main>
     <div class="main-text">
       <p>
@@ -36,8 +219,10 @@
       </p>
     </div>
   </main>
-  <!-- End content -->
-  <!-- footer -->
+
+  <!-- End content --
+  <!-- footer --
+
   <footer>
     <div class="footer-text">
       <p> 
@@ -45,7 +230,9 @@
       </p>
     </div>
   </footer> 
-  <!-- End Footer -->
+
+  <!-- End Footer --
 
   
  </body> 
+-->
