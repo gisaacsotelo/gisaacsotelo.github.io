@@ -71,6 +71,8 @@ By the end of this exercise, you will have:
     
     Growth Mindset is the state when you have embraced that you are able to improve tour brain capabilities by hard work, study and practice, insted aof being on a fixed minset of I am as smart as I was born and my habilities are limited by this.
 
+    It is important since we need to believe we are able to do something in order to do it, knowing that we can still imrpove and lear removes that mind limiter we tend to put on ourselves.
+
   - In this exploration, did anything surprise you? Change for you?
 
     Not personally, I have always been taught this way I suppose, just never actually investigated about it, but always believed that I am able to improve and to deteroriate as well.
@@ -78,7 +80,7 @@ By the end of this exercise, you will have:
 
   - How will you integrate growth mindset into your learning journey?
 
-    Searchign for best practices first I am not trying to re-invent the wheel here, use what it is already defined and out, then trying it on me see how that affects me and how I feel, stickuing with what brought the bets results, imrpoving then maybe trying again some of the other stuff 
+    Searching for best practices first I am not trying to re-invent the wheel here, use what it is already defined and out, then trying it on me see how that affects me and how I feel, stickuing with what brought the bets results, imrpoving then maybe trying again some of the other stuff 
 
   - Link to a resource that you found particularly useful or engaging.
 
