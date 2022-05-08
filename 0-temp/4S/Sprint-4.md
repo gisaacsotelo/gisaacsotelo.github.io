@@ -285,9 +285,13 @@ Reflect on:
 
 Asking your peers for help
 
-I have asked when I feel is important or might push me back too much(like when I was struggling with setup), but in these scenarios where I still got some time and I know the answer is there im just not able to reach it yet, I just like the challenge and to stuggle with it till it cracks hehe, but I do understand the importance of asking for a hand when it really needed, Im sure I will be there soon too xD
+I believe teamwork is really important, also even tho I do think a coach will have the answer and has the experience to teach it to you in a more digestible way, these exercises of explaining one to another helps us to feel more related with the struggles that the other one have, also practicing skills like co-working wich we will need for our professional life, so I do see the importance in this, plus you get to chat with new people and that is alwasy a plus!
+
 
 Asking coaches for help
 
+I have asked when I feel is important or might push me back too much(like when I was struggling with setup), but in these scenarios where I still got some time and I know the answer is there im just not able to reach it yet, I just like the challenge and to stuggle with it till it cracks hehe, but I do understand the importance of asking for a hand when it really needed, Im sure I will be there soon too xD
+
 Improving your process with reflection
+
 Some of these I see the benefit of them right away(like analogies with concepts and making stories of thing interact with each other), some others not that much but I still believe that is for my own good and maybe I just need to do it to relize about the benefits later on, we will see.
