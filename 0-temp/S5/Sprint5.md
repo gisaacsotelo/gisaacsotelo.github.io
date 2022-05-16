@@ -37,3 +37,40 @@ Q Should you have just used that time to practise programming instead? Justify y
 A. Not at all, I made most of my progress when having good mentality and I believe opening this chanels for yourself kind of opens door inside yoursefl so you can become a better version of yourself.
 The times that I tried to force myself to finish and learn was the times I believe I ended wasting my time.
 Also I suposso this answe chnages for everyone, in my case I was needing more of core help than technical at least for the begining and setting the pace.
+
+
+///////////////////////////////////////////////////////////////////
+
+Q What is your long term goal and/or career pathway?
+A
+Want to become a full stack Web developer and start my career in the tech sector here in New Zealand.
+
+Q What do you think your biggest strengths and limitations will be in Bootcamp?
+A 
+Strenghts
+  I am used to work in a team
+  I believ with the year I have developed some team bonding abilities, and favor a good working enviroment and the importance that the team feels good.
+  Eager for learning new things
+  I like face to face work and in person conections
+
+Concers
+  My time managment can still improve a lot
+  Keep myself motivated
+
+Q What do you think your biggest non-technical challenge at Bootcamp will be?
+A
+Motivation, keeping that good mental state, its a every-day job.
+Hope I can get up to speed fast enough wouldnt like to feel im draging my team down in any way.
+
+What non-technical skills - human skills - would you like to see developed in yourself while at Dev Academy?
+
+Would like to make new habits, good habits, maintain myself learning new things weekly, meditate (or journal, express myself for myself), and keep practicing the planing ahead of my days, set myself for success.
+
+Q What are your expectations from the Bootcamp team?
+
+A 
+Support and motivation, also a bit of peace of mind when they see us to anxious.
+I really like feedback gives me a constant marking of where I am and how am I doing the sooner I get feedback on something that I can improve or fix the better I believe.
+
+Q What are your expectations of yourself on Bootcamp
+A I think the pace of work will increase and will be harder, so that is the reason we have been groomed for this during these foundation weeks.
