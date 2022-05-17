@@ -1,8 +1,16 @@
+/*
+^---------------------------------
+^ ----- GLOBAL MODIFIERS -----------
+*/
 /* Initializing targeting universal selector to ensure the page will look the same in all the browsers */
 *, ::before, ::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*
 ^---------------------------------
@@ -10,18 +18,41 @@
 */
 :root {
   font-size: 16px;
-  /* fonts */
-  --massive-font: 4rem;
-  --big-font: 2rem;
-  --bigish-font: 1.5rem;
-  --standard-font: 1.3rem;
-  --small-font: 1rem;
-/* background colors */
-  --background-clr: #DFDFDE;
-  --title-background-clr: #11999E;
-  --second-background-clr: #91c7c9;
-  --code-background-clr: rgba(64,64,64,1);
+   /* fonts */
+   --massive-font: 4rem;
+   --big-font: 2rem;
+   --bigish-font: 1.5rem;
+   --standard-font: 1.3rem;
+   --small-font: 1rem;
+ /* background colors */
+   --background-clr: #DFDFDE;
+   --title-background-clr: #11999E;
+   --second-background-clr: #91c7c9;
+   --code-background-clr: rgba(64,64,64,1);
+    /* heights */
+   --header-height: 20vh;
+   
+ }
+
+/*
+^---------------------------------
+^ ----- ACCESSIBILITY -----------
+*/
+.skip-nav-link {
+  position: absolute;
+  background-color: var(--title-background-clr);
+  padding: 0.2rem 1rem 0.5rem 1rem;
+  border-radius: 0 10px 10px 0;
+  outline: solid black 2px;
+  transform: translateX(-120%) translateY(calc(-0.7*(var(--header-height))));
 }
+
+.skip-nav-link:focus {
+  transform: translateX(0) translateY(calc(-0.7*(var(--header-height))));
+  transition: transform 300ms ease-in;
+}
+
+
 
 /* 
 TODO-------------------------------------------------------------------------------|
@@ -59,7 +90,7 @@ TODO----------------------------------------------------------------------------
   display:block;
   text-align: center;}
 /* bold */
-.isBold {font-weight: bold;}
+.isBold, .is-bold {font-weight: bold;}
 
 
 /* code -  for making it look like code */
@@ -103,7 +134,7 @@ body {
 }
 header {
   background-color: #DFDFDE;
-  height: 20vh;
+  height: var(--header-height);
   width: 100%;
 }
 main {
