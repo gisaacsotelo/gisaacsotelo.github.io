@@ -1,11 +1,4 @@
-Tech.html
-  - dead link to About   
-
-
-  class: "sprints-main"
-  used in tech.html 
-
-  check on - div class: "tech-content" on tech
+<!--? CSS CHANGES ---------------- -->
 
 Create a general is-text class
 formatting all text that is not titles
@@ -20,3 +13,36 @@ question-text
 answer-text
 
 just something like that 
+
+
+<!-- ^ TECH.HTML OBSERVATIONS -->
+
+Tech.html
+  - dead link to About   
+
+class: "sprints-main" + "tech-content" prob only need 1
+  check on: div class: "tech-content" on tech
+
+check if possible to change classes: 
+
+"tech-blog-image" for a generalized "is-image" + "modifier"
+
+check div class: "sprint-topic-content"  is it a wrapper?
+if not tyr to change it for section "is-text" + "modifiers"
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not so important:
+
+
+- all my spans are default bold, make a class and wrap them accordingly

@@ -1,6 +1,6 @@
 /*
 ^---------------------------------
-^ ----- GLOBAL MODIFIERS -----------
+^ ----- GLOBAL MODIFYERS -----------
 */
 /* Initializing targeting universal selector to ensure the page will look the same in all the browsers */
 *, ::before, ::after {
@@ -31,13 +31,16 @@ html {
    --code-background-clr: rgba(64,64,64,1);
     /* heights */
    --header-height: 20vh;
-   
  }
 
 /*
 ^---------------------------------
 ^ ----- ACCESSIBILITY -----------
+Reminder for testing: 
+Tab key - Move from section to section (focus states)
+Windows Key + Ctrl + Enter - Activate/De-activate windows narrator
 */
+
 .skip-nav-link {
   position: absolute;
   background-color: var(--title-background-clr);
