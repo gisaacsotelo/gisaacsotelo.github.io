@@ -3,8 +3,9 @@
 const navigation = document.querySelectorAll('.js-navigation')
 // const primaryNav = document.getElementById('js-main-navbar')
 // const secondaryNav = document.querySelector('#js-secondary-navbar')
+const menuButtons = document.querySelectorAll('.menu-buttons')
 
-console.log(navigation)
+console.log(menuButtons)
 // console.log(primaryNav)
 // console.log(secondaryNav)
 

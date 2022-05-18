@@ -24,6 +24,8 @@
   --title-background-clr: #11999E;
   --second-background-clr: #91c7c9;
   --code-background-clr: rgba(64,64,64,1);
+  /* heights */
+  --navbar-height: 5vh;
 }
 
 
@@ -32,7 +34,7 @@
 
 /**----- Layout --- */
 /* For mobile I want:
- The navbar on the bottom (that pop up when hovered)
+ The navbar on the bottom (that pop up when clicked)
 The header to stay on top but get lost as soon as we scroll down */
 body {
   display: flex;
@@ -69,13 +71,12 @@ width: 100vw;
 order: 10;
 display: flex;
 flex-direction: column;
-/* overflow: hidden; */
 outline: 2px black solid;
 /* align-items: flex-end; */
 }
 
 
-/** Working on the .main-navbar */
+/** Working on the navbar */
 
 /* 
 * Pseudo: 
@@ -88,13 +89,11 @@ outline: 2px black solid;
 .main-navbar {
   width: 100vw;
   height: 5vh;
-  order: 1;
 }
 
 .secondary-navbar {
   width: 100vw;
   height: 5vh;
-  order: 2;
 }
 
 /* .main-navbar::before {
@@ -111,8 +110,8 @@ outline: 2px black solid;
 .nav-list{
   height: 5vh;
   display: flex;
-  gap: 2rem;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
 }
 
@@ -121,24 +120,15 @@ outline: 2px black solid;
 }
 
 .menu-button {
-  z-index:4;
   border: 0 hidden;
   background-color: var(--title-background-clr);
   width: 100vw;
   height: 3vh;
-  /* display: none; */
-  order: 3;
 }
 
-.menu-button::before {
-  /* todo: add arrow icons one left one right  */
-  content: '';
-  display: none;
-}
-.menu-button::before {
-  /* todo: add arrow icons one left one right  */
-  content: '';
-  display: none;
+.menu-buttons {
+  height: calc(var(--navbar-height)* 0.5);
+  width: auto;
 }
 
 /* 
