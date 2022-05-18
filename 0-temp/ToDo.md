@@ -30,6 +30,9 @@ check if possible to change classes:
 check div class: "sprint-topic-content"  is it a wrapper?
 if not tyr to change it for section "is-text" + "modifiers"
 
+- change div.tech-blog-entry 
+for button to see full blog entry
+
 
 
 
