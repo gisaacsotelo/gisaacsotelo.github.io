@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&family=Fjalla+One&display=swap" rel="stylesheet">
   <!-- Link my .css file to my .html file -->
-  <link rel="stylesheet" href="../styles/main.css" type="text/css">
+  <link rel="stylesheet" href="../styles/mobile-test.css" type="text/css">
   <title>ISB - Tech</title>
 </head>
 <body>
@@ -18,7 +18,10 @@
     <p class="slogan">
       My Web Developement Journey
     </p>
-    <nav class="main-nav">
+  </header>
+  <!-- End header -->
+  <div class="navigation-wrapper">
+    <nav class="main-navbar js-navigation" id="js-main-navbar">
       <ul class="nav-list">
         <li><a href="../index.html">Home</a></li>
         <li><a href="tech.html"class="current-page">Tech</a></li>
@@ -26,20 +29,21 @@
         <li><a href="#">About/Contact</a></li>
       </ul>
     </nav>
-  </header>
-  <!-- End header -->
-  <!-- secondary nav -->
-  <nav class="secondary-nav">
-    <ul class="secondary-nav-list">
-      <li><a href="#sprint-one">Sprint 1</a></li>
-      <li><a href="#sprint-two">Sprint 2</a></li>
-      <li><a href="#sprint-three">Sprint 3</a></li>
-      <li><a href="#sprint-four">Sprint 4</a></li>
-      <li><a href="#sprint-five">Sprint 5</a></li>
-    </ul>
-  </nav>
+    <!-- secondary nav -->
+    <nav class="secondary-navbar js-navigation" id="js-secondary-navbar" aria-label="secondary-navigation">
+      <ul class="nav-list">
+        <li><a href="#sprint-one">Sprint 1</a></li>
+        <li><a href="#sprint-two">Sprint 2</a></li>
+        <li><a href="#sprint-three">Sprint 3</a></li>
+        <li><a href="#sprint-four">Sprint 4</a></li>
+        <li><a href="#sprint-five">Sprint 5</a></li>
+      </ul>
+    </nav>
+    <button type="button" id="js-menu-button" class="menu-button js-navigation">Menu</button>
+  </div>
+  <!-- End navigation -->
   <!-- Start main-tech -->
-  <div class="sprints-main">
+  <main class="tech-main">
     <div class="tech-content">
       <div class="divider-line"></div>
       <!--Start: Sprint One -->
@@ -47,7 +51,7 @@
         <div class="sprint-title" >
           <h2>Sprint #1</h2>
         </div>
-        <!--Strat Title-->
+        <!--Start Topic-->
         <div class="sprint-topic"> 
           <h3>Terminal / Shell / Console </h3>
           <p>
@@ -56,25 +60,27 @@
         </div>
         <!-- Start title content -->
         <div class="tech-blog-image">
-          <img src="../images/windows-subsystem.webp" alt=" " width="390px" height="218px">
+          <!-- <img src="../images/windows-subsystem.webp" alt=" " width="390px" height="218px"> -->
         </div>
         <div class="divider-line"></div>
         <!--Start Title-->
         <div class="sprint-topic"> 
           <h3>Git & Github </h3>
-          <p>- Version control -</p>
+          <p>
+            - Version control -
+          </p>
         </div>
         <!-- Start title content -->
         <div class="tech-blog-image">
-          <img src="../images/git-logo.jpg" alt=" " width="390px" height="218px">
+          <!-- <img src="../images/git-logo.jpg" alt=" " width="390px" height="218px"> -->
           <br>
-          <img src="../images/github-logo.jpg" alt=" " width="390px" height="218px">
+          <!-- <img src="../images/github-logo.jpg" alt=" " width="390px" height="218px"> -->
         </div>
         <div class="divider-line"></div>
       </section> 
       <!-- end first sprint-->
       <!--Second sprint start-->
-      <section id="sprint-two"> 
+      <section > 
         <div class="sprint-title" >
           <h2>Sprint #2</h2>
         </div>
@@ -93,7 +99,7 @@
               elemnt to look and behave.
             </p>
             <div class="box-model">
-              <img src="../images/box-model.png" alt="box model picture" width="204px" height="101px">
+              <!-- <img src="../images/box-model.png" alt="box model picture" width="204px" height="101px"> -->
             </div>
             <p>
               As shown above the box layers for every HTML element are:
@@ -134,18 +140,18 @@
             <h3>Document Object Model</h3>
             <p>- a.k.a. the DOM-</p>
           </div>
-          <div class="tech-blog-image blk-inline-img">
+          <!-- <div class="tech-blog-image blk-inline-img"> -->
             <p style="text-align: center; font-size: 2rem;">Original Page</p>
             <br>
-            <img src="../images/original-dom.jpg" alt="" width="500px" height="350px">
+            <!-- <img src="../images/original-dom.jpg" alt="" width="500px" height="350px"> -->
             <br>
             <p style="text-align: center; font-size: 2rem;">Modifying it with DevTools</p>
             <br>
-            <img src="../images/Modifying-dom.jpg" alt="" width="550px" height="350px">
+            <!-- <img src="../images/Modifying-dom.jpg" alt="" width="550px" height="350px"> -->
             <br>
             <p style="text-align: center; font-size: 2rem;">Result</p>
             <br>
-            <img src="../images/result-dom.jpg" alt="" width="500px" height="350px">
+            <!-- <img src="../images/result-dom.jpg" alt="" width="500px" height="350px"> -->
           </div>
           </section>
            <!--Fourth sprint start-->
@@ -160,13 +166,13 @@
               </div>
               <div class="sprint-topic-content">
                 <div class="tech-blog-image">
-                  <img src="../images/problem solving.png" alt="" width="400px" height="350px">
+                  <!-- <img src="../images/problem solving.png" alt="" width="400px" height="350px"> -->
                   <section class="isText" style="text-align: center; font-weight: bold">
                     <p>
                       And testing!
                     </p>
                   </section>
-                  <img src="../images/Testing.jpg" alt="" width="400px" height="350px">
+                  <!-- <img src="../images/Testing.jpg" alt="" width="400px" height="350px"> -->
                 </div>
                 <div class="tech-blog-entry">
                   <a href="problem-solving.html">Click to see full blog entry!</a>
@@ -175,11 +181,15 @@
             </section>
           </section>
           <!-- Sprint four ends -->
-        </div>
-        <div class="core-footer">
-        <p>Made by: Isaac Sotelo | "Slowly but surely..."</p>
-      </div>
-  <!-- End tech main -->
-  </div>
+        </div>  
+  </main>
+  <!--End main -->
+  <footer class="tech-footer">
+      <p>
+        Made by: Isaac Sotelo | "Slowly but surely..."
+      </p>
+  </footer>
+  <!-- End footer -->
+<script src="../main.js"></script>
 </body>
 </html>

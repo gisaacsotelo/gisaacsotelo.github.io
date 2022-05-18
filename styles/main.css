@@ -31,6 +31,7 @@ html {
    --code-background-clr: rgba(64,64,64,1);
     /* heights */
    --header-height: 20vh;
+   --main-height: 
  }
 
 /*
@@ -54,32 +55,6 @@ Windows Key + Ctrl + Enter - Activate/De-activate windows narrator
   transform: translateX(0) translateY(calc(-0.7*(var(--header-height))));
   transition: transform 300ms ease-in;
 }
-
-
-
-/* 
-TODO-------------------------------------------------------------------------------|
-TODO--------------------------Todo List--------------------------------------------|
-TODO-------------------------------------------------------------------------------|
-!Priority
-- Media query for mobile implementation []
-- Re order the tag usage to reduce code,
-  lots being used multiple times
-
-
-~------No specific order
-- About me section
-- Finish landing
-- Format title classes to: 
-      For entries - new blogs - tech, core etc..       
-      main-title (Sprints)
-      (section topic)
-      (section question)
-
-
-TODO-------------------------End Todo List-----------------------------------------|
-TODO-------------------------------------------------------------------------------|
-*/
 
 /* 
 ^---------------------------------
@@ -126,7 +101,6 @@ TODO----------------------------------------------------------------------------
   margin: 2em;
   text-align: justify;
 }
-
 /*
  ^----------------------------------
  ^--------------LAYOUT--------------
@@ -150,7 +124,15 @@ footer {
   max-height: 10vh;
   width: 100%;
 }
+ 
 /* 
+!--------------------------------------------------------------------
+!--------------------------------------------------------------------
+!--------------------------------------------------------------------
+!--------------------------------------------------------------------
+*/
+
+/*
 ^-----------------\\\\\ START HEADER /////------------------------
 ^------------------ |                  |
 
@@ -526,14 +508,7 @@ h3 {
   margin-right: 2em;
 }
 
-/* TODO: --------------------------------------------------------------- 
- TODO: Prob need erasing--------------------------------------------- CHECK! 
- TODO: I moved this code to the "isBold" class for sections
- TODO: ---------------------------------------------------------------------*/ 
- 
- /* .sprint-topic-content > p > span {
-  font-weight: bold;
-} */
+
 .box-model {
   margin-bottom: 3rem;
 }

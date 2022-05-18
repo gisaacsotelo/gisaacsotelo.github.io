@@ -1,10 +1,16 @@
+/* 
+^-----------------------------------------------------
+^------------------- GLOBAL MODIFYIERS
+*/
+
 /* Initializing targeting universal selector to ensure the page will look the same in all the browsers */
 *, ::before, ::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-/* ------------------------------------------------------------------ */
+/* ?------------- VARIABLES: 
+*/
 :root {
   font-size: 16px;
   /* fonts */
@@ -20,6 +26,8 @@
   --code-background-clr: rgba(64,64,64,1);
 }
 
+
+
 /** -------- Working Header (mobile) ---------------- */
 
 /**----- Layout --- */
@@ -29,45 +37,113 @@ The header to stay on top but get lost as soon as we scroll down */
 body {
   display: flex;
   flex-direction: column;
+  background-color: red;
 }
 
 header {
 background-color: burlywood;
 height: 10vh;
+width: 100%;
 order: 1
 }
 
 main {
 background-color: #bdc991;
-max-height: 95vh;
-min-height: 80vh;
+min-height: 87vh;
+width: 100vw;
 order: 5
 }
 
 footer {
 background-color: #91c7c9;
 height: 5vh;
+width: 100vw;
 order: 9;
 }
 
-.main-navbar {
+.navigation-wrapper {
 background-color: blueviolet;
-min-height: 5vh;
-max-height: 10vh;
+min-height: 3vh;
+max-height: 5vh;
+width: 100vw;
 order: 10;
+display: flex;
+flex-direction: column;
+/* overflow: hidden; */
+outline: 2px black solid;
+/* align-items: flex-end; */
 }
+
 
 /** Working on the .main-navbar */
 
+/* 
+* Pseudo: 
+*   - Make main-navbar ::before pseudo the "menu" cover
+      - on-click: open main nav-bar w main & second nav-bar buttons/ main default
+        also buttons for minimize again
+    - Get the right font and customization for the button looks
+    - Test it
+*/
+.main-navbar {
+  width: 100vw;
+  height: 5vh;
+  order: 1;
+}
+
+.secondary-navbar {
+  width: 100vw;
+  height: 5vh;
+  order: 2;
+}
+
+/* .main-navbar::before {
+  content: '';
+  height: 5vh;
+  width: 100vh;
+  background-color: chartreuse;
+  position: absolute;
+  z-index: 3;
+ 
+  display: none;
+} */
+
 .nav-list{
+  height: 5vh;
   display: flex;
   gap: 2rem;
   justify-content: space-around;
   list-style: none;
 }
+
 .nav-list > li > a {
  text-decoration: none;
 }
 
+.menu-button {
+  z-index:4;
+  border: 0 hidden;
+  background-color: var(--title-background-clr);
+  width: 100vw;
+  height: 3vh;
+  /* display: none; */
+  order: 3;
+}
+
+.menu-button::before {
+  /* todo: add arrow icons one left one right  */
+  content: '';
+  display: none;
+}
+.menu-button::before {
+  /* todo: add arrow icons one left one right  */
+  content: '';
+  display: none;
+}
+
+/* 
+Things to change when going back to "desktop" version
 
 
+
+*/
